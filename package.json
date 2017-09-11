@@ -1,0 +1,30 @@
+{
+  "name": "heroku-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/norisalsaadie/heroku-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/norisalsaadie/heroku-api/issues"
+  },
+  "homepage": "https://github.com/norisalsaadie/heroku-api#readme",
+  "dependencies": {
+    "cors": "^2.8.4"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0"
+  }
+}
