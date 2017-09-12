@@ -12,6 +12,7 @@ server
   .use(bodyParser.json())
   .use(compression())
   .get('/', (req, res, next) => res.json({message: 'hello and welcome'}))
+  .get('/bye', (req, res, next) => res.json({message: 'bye and goodbye'}))
   .get('/users', (req, res, next) => res.json({users}))
   .get('/headlines', (req, res, next) => res.json({headlines}))
   .listen(PORT, () => console.log('I am alive'))
