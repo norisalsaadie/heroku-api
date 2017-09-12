@@ -22,7 +22,10 @@
   },
   "homepage": "https://github.com/norisalsaadie/heroku-api#readme",
   "dependencies": {
-    "cors": "^2.8.4"
+    "body-parser": "^1.18.0",
+    "compression": "^1.7.0",
+    "cors": "^2.8.4",
+    "express": "^4.15.4"
   },
   "devDependencies": {
     "ava": "^0.22.0"
